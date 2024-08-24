@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="564.0" prefWidth="342.0" styleClass="bg-color" stylesheets="@stylesheet.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXMLController">
+   <children>
+      <AnchorPane layoutX="10.0" layoutY="12.0" prefHeight="538.0" prefWidth="323.0" styleClass="anchor-color" stylesheets="@stylesheet.css">
+         <children>
+            <TextField fx:id="displayHandler" alignment="CENTER_RIGHT" editable="false" layoutX="11.0" layoutY="97.0" prefHeight="60.0" prefWidth="301.0" styleClass="textField-color" text="0">
+               <font>
+                  <Font name="Arial Black" size="30.0" />
+               </font>
+            </TextField>
+            <Label layoutX="32.0" layoutY="30.0" text="CALCULATOR">
+               <font>
+                  <Font name="Arial Black" size="34.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.8799626231193542" green="0.8947368264198303" blue="0.00828460045158863" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.20134228187919462">
+                           <color>
+                              <Color red="0.8799626231193542" green="0.8947368264198303" blue="0.00828460045158863" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.28527453541755676" green="0.8157894611358643" blue="0.07553606480360031" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <Button layoutX="11.0" layoutY="177.0" mnemonicParsing="false" onAction="#btnOperator" prefHeight="60.0" prefWidth="144.0" styleClass="buttonOperator" text="C">
+               <font>
+                  <Font name="Arial Black" size="25.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="167.0" layoutY="177.0" mnemonicParsing="false" onAction="#btnOperator" prefHeight="60.0" prefWidth="66.0" styleClass="buttonOperator" text="←">
+               <font>
+                  <Font name="Arial Black" size="25.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="245.0" layoutY="177.0" mnemonicParsing="false" onAction="#btnOperator" prefHeight="60.0" prefWidth="66.0" styleClass="buttonOperator" text="÷">
+               <font>
+                  <Font name="Arial Black" size="25.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="12.0" layoutY="248.0" mnemonicParsing="false" onAction="#btnNumber" prefHeight="60.0" prefWidth="66.0" styleClass="buttonNumber" text="7">
+               <font>
+                  <Font name="Arial Black" size="25.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="89.0" layoutY="248.0" mnemonicParsing="false" onAction="#btnNumber" prefHeight="60.0" prefWidth="66.0" styleClass="buttonNumber" text="8">
+               <font>
+                  <Font name="Arial Black" size="25.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="168.0" layoutY="248.0" mnemonicParsing="false" onAction="#btnNumber" prefHeight="60.0" prefWidth="66.0" styleClass="buttonNumber" text="9">
+               <font>
+                  <Font name="Arial Black" size="25.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="246.0" layoutY="248.0" mnemonicParsing="false" onAction="#btnOperator" prefHeight="60.0" prefWidth="66.0" styleClass="buttonOperator" text="×">
+               <font>
+                  <Font name="Arial Black" size="25.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="12.0" layoutY="319.0" mnemonicParsing="false" onAction="#btnNumber" prefHeight="60.0" prefWidth="66.0" styleClass="buttonNumber" text="4">
+               <font>
+                  <Font name="Arial Black" size="25.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="89.0" layoutY="319.0" mnemonicParsing="false" onAction="#btnNumber" prefHeight="60.0" prefWidth="66.0" styleClass="buttonNumber" text="5">
+               <font>
+                  <Font name="Arial Black" size="25.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="168.0" layoutY="319.0" mnemonicParsing="false" onAction="#btnNumber" prefHeight="60.0" prefWidth="66.0" styleClass="buttonNumber" text="6">
+               <font>
+                  <Font name="Arial Black" size="25.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="246.0" layoutY="319.0" mnemonicParsing="false" onAction="#btnOperator" prefHeight="60.0" prefWidth="66.0" styleClass="buttonOperator" text="–">
+               <font>
+                  <Font name="Arial Black" size="25.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="12.0" layoutY="389.0" mnemonicParsing="false" onAction="#btnNumber" prefHeight="60.0" prefWidth="66.0" styleClass="buttonNumber" text="1">
+               <font>
+                  <Font name="Arial Black" size="25.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="89.0" layoutY="389.0" mnemonicParsing="false" onAction="#btnNumber" prefHeight="60.0" prefWidth="66.0" styleClass="buttonNumber" text="2">
+               <font>
+                  <Font name="Arial Black" size="25.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="168.0" layoutY="389.0" mnemonicParsing="false" onAction="#btnNumber" prefHeight="60.0" prefWidth="66.0" styleClass="buttonNumber" text="3">
+               <font>
+                  <Font name="Arial Black" size="25.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="246.0" layoutY="389.0" mnemonicParsing="false" onAction="#btnOperator" prefHeight="60.0" prefWidth="66.0" styleClass="buttonOperator" text="+">
+               <font>
+                  <Font name="Arial Black" size="25.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="12.0" layoutY="461.0" mnemonicParsing="false" onAction="#btnNumber" prefHeight="60.0" prefWidth="66.0" styleClass="buttonNumber" text="0">
+               <font>
+                  <Font name="Arial Black" size="25.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="89.0" layoutY="461.0" mnemonicParsing="false" onAction="#btnNumber" prefHeight="60.0" prefWidth="66.0" styleClass="buttonNumber" text=".">
+               <font>
+                  <Font name="Arial Black" size="25.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="168.0" layoutY="461.0" mnemonicParsing="false" onAction="#btnOperator" prefHeight="60.0" prefWidth="144.0" styleClass="buttonOperator" text="=">
+               <font>
+                  <Font name="Arial Black" size="25.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Text fx:id="calculateHandler" fill="#353c738c" layoutX="21.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" wrappingWidth="119.13671875">
+               <font>
+                  <Font name="Arial Black" size="14.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </children>
+</Pane>

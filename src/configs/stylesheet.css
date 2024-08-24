@@ -1,0 +1,45 @@
+.bg-color{
+    -fx-background-color: linear-gradient(#1679AB, #5DEBD7, #C5FF95);
+}
+
+.anchor-color{
+    -fx-background-color: transparent;
+    -fx-border-color: #D20062;
+    -fx-border-radius: 20px;
+}
+
+.textField-color{
+    -fx-background-color: transparent;
+    -fx-border-color: #D20062;
+    -fx-border-radius: 20px;
+}
+
+.buttonNumber{
+    -fx-background-color: transparent;
+    -fx-border-color: #D20062;
+    -fx-border-radius: 50px;
+    -fx-text-fill: #1C1678;
+}
+
+.buttonOperator{
+    -fx-background-color: #1679AB;
+    -fx-text-fill: #bb0249;
+}
+
+.buttonNumber:hover{
+    -fx-border-radius: 20px;
+    -fx-font-size: 26px;
+    -fx-font-family: Arial, Helvetica, sans-serif;
+    -fx-font-weight: 900;
+}
+
+.buttonOperator:hover{
+    -fx-background-color: transparent;
+    -fx-border-color: #D20062;
+    -fx-border-radius: 10px;
+}
+
+.buttonNumber:pressed, .buttonOperator:pressed{
+    -fx-text-fill: #ffff;
+    -fx-font-size: 23px;
+}
